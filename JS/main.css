@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e21e1e;
+    background: #ebe1e1;
+}
+ 
+ ul {
+
+    font-family: helvetica;
+    color: rgb(4, 7, 2);
+    background: rgb(201, 206, 197);
+}
+
+li {
+    color: rgb(68, 37, 37);
+    
+}
+
+.list{
+    list-style:square
+}
+
+#msg{
+    font-family: monospace
+}
+
+
+
+.btn { 
+    position: absolute;
+    top: 40px
+    left: 200px;
+    height: 30px;
+    width: 50px;
+    border-radius: 90%
+    border: none;
+    color :var(--btnFontColor);
+    background-color: var(--btnBg);
+    focus { outline-style: none;}
+}
+
+.light-theme{
+    --bg: var(--red)
+    --fonColor: var(white);
+    --btnbg: var (--white);
+    --btnFontColor: var(--black);
+}
+
+

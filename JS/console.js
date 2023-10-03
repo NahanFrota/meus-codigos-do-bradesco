@@ -1,0 +1,1 @@
+const swithcer = document.querySelector('.btn')
