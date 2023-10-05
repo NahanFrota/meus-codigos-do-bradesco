@@ -1,49 +1,70 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: #e21e1e;
-    background: #ebe1e1;
+    color: #000000;
+    background: #12db0b;
 }
  
  ul {
-
     font-family: helvetica;
-    color: rgb(4, 7, 2);
-    background: rgb(201, 206, 197);
+    left: 100px;
+    
+    
 }
 
 li {
-    color: rgb(68, 37, 37);
+    color: rgb(0, 0, 0);
+    
     
 }
 
 .list{
     list-style:square
+    
+
+    
 }
 
 #msg{
     font-family: monospace
 }
 
+.light-theme{
+    color: #000000;
+    background:#0aee0a;
 
+}
 
 .btn { 
-    position: absolute;
-    top: 40px
-    left: 200px;
-    height: 30px;
-    width: 50px;
-    border-radius: 90%
-    border: none;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 56px;
+    border-radius: 300px;
+    border: square 50px;
     color :var(--btnFontColor);
-    background-color: var(--btnBg);
-    focus { outline-style: none;}
-}
+    background-color:var(--btnBg) ;
 
+  }
+
+
+.btn:focus {
+    outline-style: none;
+    background-color: rgb(107, 106, 106);
+    
+}
 .light-theme{
-    --bg: var(--red)
-    --fonColor: var(white);
-    --btnbg: var (--white);
+    --bg: var(--green);
+    --FontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+.dark-theme{
+    --bg: var(--black);
+    --fontColor:var(--green);
+    --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
+
 
 

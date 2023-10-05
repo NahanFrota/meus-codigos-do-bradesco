@@ -11,7 +11,7 @@ var x = (10)
  while (x <=20){
     console.log ("LOOP"+x)
 
-//incrementador
+
 x++ 
  }
 
